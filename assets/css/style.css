@@ -1,0 +1,139 @@
+header {
+  background-color: darkgreen;
+  width: 100%;
+  line-height: 50px;
+  text-align: right;
+  color: white;
+  position: fixed;
+  margin-top: 0;
+  top: 0;
+}
+
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.header-list {
+    display: inline;
+    list-style-type: none;
+    font-size: 12px;
+    padding: 10px;
+}
+
+main {
+  margin-top: 80px;
+  margin-bottom: 50px;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+.contact-group {
+    background-color: tan;
+  }
+
+.thick-line{
+  border: 0px;
+  height: 10px;
+  background-color: brown;
+  margin: 0;
+}
+
+body {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  color: rgb(105, 69, 21);
+}
+
+#form-section {
+  display: grid;
+  background-color: tan;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  align-content: center;
+  padding-bottom: 40px;
+  border-top: solid rgb(174, 135, 85);
+}
+
+form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.contact-group {
+  display:flex;
+  align-items: center;  
+  margin-bottom: 10px; /* Space between text boxes */
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  width: 100px;
+  text-align: left;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box; /* Ensures padding is included in width */
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+h2 {
+  line-height: 50px;
+}
+
+.send-button {
+  display: block;
+  width: 25%; /* Full width button */
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: brown; /* Blue background color */
+  color: white; /* White text color */
+  font-size: 16px;
+  cursor: pointer; /* Change cursor to pointer on hover */
+  margin: 20px auto 0; /* Space above the button */
+  text-align: center; /* Center text inside the button */
+}
+
+.send-button:hover {
+  background-color: darkred; /* Darker blue on hover */
+}
+
+.form-container {
+  background-color: tan;
+  border: 4px solid brown;
+  border-radius: 10px;
+  padding: 20px;
+  width: 600px;
+  
+}
+
+footer {
+  background-color: darkgreen;
+  width: 100%;
+  line-height: 50px;
+  text-align: center;
+  color: white;
+  border-top: 0;
+  border-bottom: 0;
+  position: fixed;
+  bottom: 0;
+}
+
+.p-footer {
+  border-top: 0;
+  border-bottom: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
